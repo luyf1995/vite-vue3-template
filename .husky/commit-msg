@@ -1,0 +1,3 @@
+if [ -f .git/hooks/commit-msg ]; then
+  . ".git/hooks/commit-msg"
+fi

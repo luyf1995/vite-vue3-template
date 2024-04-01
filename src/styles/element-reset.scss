@@ -1,0 +1,58 @@
+.el-button {
+  height: 30px;
+  border-radius: 2px;
+}
+
+.el-button--danger.is-link:focus {
+  color: var(--el-color-danger);
+}
+
+.el-table {
+  .el-table__header {
+    .el-table__cell {
+      background-color: #f8f8f9 !important;
+    }
+  }
+
+  // .el-table__cell {
+  //   padding: 10px 0;
+  // }
+  .el-table__header-wrapper,
+  .el-table__fixed-header-wrapper {
+    th {
+      height: 40px;
+      font-size: 13px;
+      color: #515a6e;
+      background-color: #f8f8f9;
+      word-break: break-word;
+    }
+  }
+
+  .el-table__body-wrapper {
+    .el-button [class*='el-icon-'] + span {
+      margin-left: 1px;
+    }
+  }
+
+  .el-table__body tr.current-row > td.el-table__cell {
+    background-color: #b5d8ff;
+  }
+}
+
+.el-form--inline .el-form-item {
+  margin-right: 12px;
+}
+
+.el-dialog__body {
+  padding: 5px 20px;
+}
+
+.el-input-number {
+  .el-input__inner {
+    text-align: left;
+  }
+}
+
+.el-date-editor.el-input__wrapper {
+  width: 300px;
+}
